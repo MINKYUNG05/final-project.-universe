@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome to My Universe!</title>
+    <title>Welcome to My Universe!</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="js/main.js">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-   <p>KIM MINKYUNG</p>
+
+    <div class="intro">
+        <p class="name1">Kim Minkyung</p>
+        <p class="name2">Kim Minkyung</p>
+        <p class="name3">Kim Minkyung</p>
+        <p id="me">Kim Minkyung</p>
+        <p class="name4">Kim Minkyung</p>
+        <p class="name5">Kim Minkyung</p>
+        <p class="name6">Kim Minkyung</p>
+        <!-- <img src="img/EG43iNBVUAYaC0s.png" alt="" id="imgme"> -->
+        <img src="img/realme.gif" alt="" id="imgme">
+    </div>
+
+    <script>
+
+        $("#me").click(function () {
+            // upper
+            $(".name1").animate({
+                height: '800px', opacity:1,
+            }, 'slow');
+            $(".name2").animate({
+                height: '600px', opacity:1,
+            }, 'slow');
+            $(".name3").animate({
+                height: '400px', opacity:1,
+            }, 'slow');
+
+            // down
+            $(".name4").animate({
+                top: '550px', opacity:1,
+            }, 'slow');
+            $(".name5").animate({
+                top: '650px', opacity:1,
+            }, 'slow');
+            $(".name6").animate({
+                top: '750px', opacity:1,
+            }, 'slow');
+
+            //img
+            $("#imgme").animate({
+                bottom: '-1%',
+               
+            }, 'slow');
+
+        });
+
+    </script>
+
 </body>
+
 </html>
