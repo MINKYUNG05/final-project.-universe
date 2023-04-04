@@ -32,12 +32,13 @@ body{
 
 #imgme{
     position:absolute;
-    bottom:-55%;
-    left:50%;
-    transform: translateX(-50%);
-    width: 400px;
+    bottom:-5%;
+    left:32%;
+    /* transform: translateX(-50%); */
+    width: 700px;
     /* rotate: 10deg; */
-
+    z-index: 10;
+    opacity: 0;
 } 
 
 #me{
@@ -55,6 +56,7 @@ body{
 }
 
 .intro .name1{
+    width:100%;
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -78,6 +80,7 @@ body{
 } */
 
 .intro .name2{
+    width:100%;
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -92,6 +95,7 @@ body{
 }
 
 .intro .name3{
+    width:100%;
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -106,6 +110,7 @@ body{
 }
 
 .intro .name4{
+    width:100%;
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -120,6 +125,7 @@ body{
 }
 
 .intro .name5{
+    width:100%;
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -134,6 +140,7 @@ body{
 }
 
 .intro .name6{
+    width:100%;
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -146,4 +153,39 @@ body{
     opacity:0;
     
 }
+
+.text{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 255, 123);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    position:absolute;
+    bottom:5%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+
+.text1{
+    transform: rotate(45deg);
+    border-radius: 90px;
+    width: 20px;
+    height:20px;
+    background-color: rgb(0, 255, 123);
+    position:absolute;
+    bottom:5%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+
+
 
