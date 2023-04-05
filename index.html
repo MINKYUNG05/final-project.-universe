@@ -16,50 +16,50 @@
 <body>
 
     <div class="intro">
-        <p class="name1">Kim Minkyung</p>
-        <p class="name2">Kim Minkyung</p>
-        <p class="name3">Kim Minkyung</p>
-        <p id="me">Kim Minkyung</p>
-        <p class="name4">Kim Minkyung</p>
-        <p class="name5">Kim Minkyung</p>
-        <p class="name6">Kim Minkyung</p>
-        <img src="img/me.png" alt="" id="imgme">
+        <p id="name1" class="names">Kim Minkyung</p>
+        <p id="name2" class="names">Kim Minkyung</p>
+        <p id="name3" class="names">Kim Minkyung</p>
+        <p id="maintitle">Kim Minkyung</p>
+        <p id="name4" class="names">Kim Minkyung</p>
+        <p id="name5" class="names">Kim Minkyung</p>
+        <p id="name6" class="names">Kim Minkyung</p>
+        <img src="img/me.png" alt="" id="logo">
         <!-- <video muted autoplay loop id="imgme"> -->
             <!-- <img src="img/me.png" aid="imgme"> -->
             <!-- <strong>Your browser does not support the video tag.</strong>
           </video> -->
     </div>
 
-    <div class="text"> Hello World!</div>
+    <div class="text"> .myself{background-color:korean;}</div>
     <div class="text1"></div>
 
     <script>
 
-        $("#me").click(function () {
+        $("#maintitle").click(function () {
             // upper
-            $(".name1").animate({
+            $("#name1").animate({
                 height: '850px', opacity:1,
             }, 'slow');
-            $(".name2").animate({
+            $("#name2").animate({
                 height: '650px', opacity:1,
             }, 'slow');
-            $(".name3").animate({
+            $("#name3").animate({
                 height: '450px', opacity:1,
             }, 'slow');
 
             // down
-            $(".name4").animate({
+            $("#name4").animate({
                 top: '550px', opacity:1,
             }, 'slow');
-            $(".name5").animate({
+            $("#name5").animate({
                 top: '650px', opacity:1,
             }, 'slow');
-            $(".name6").animate({
+            $("#name6").animate({
                 top: '750px', opacity:1,
             }, 'slow');
 
             //img
-            $("#imgme").animate({
+            $("#logo").animate({
                 bottom: '-15%',opacity:1,
             }, 'slow');
 

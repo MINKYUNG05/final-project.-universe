@@ -31,7 +31,7 @@ body{
 
 } */
 
-#imgme{
+#logo{
     position:absolute;
     bottom:-40%;
     left:40%;
@@ -40,9 +40,14 @@ body{
     /* rotate: 10deg; */
     z-index: 10;
     opacity: 0;
+    cursor:pointer;
 } 
 
-#me{
+#logo:hover {
+    filter: drop-shadow(10px 20px 30px #cccccc67);
+}
+
+#maintitle{
     font-size: 120px;
     text-align: center;
     font-weight: 900;
@@ -56,7 +61,7 @@ body{
     
 }
 
-.intro .name1{
+.names{
     width:100%;
     font-size: 120px;
     text-align: center;
@@ -69,91 +74,8 @@ body{
     left:50%;
     transform: translate(-50%,-50%);
     opacity:0;
-    
-
-}
-/* 
-.infro .name1move{
-    transition: 1.2s;
-    top:20%;
-    left:50%;
-    transform: translate(-50%,-50%);
-} */
-
-.intro .name2{
-    width:100%;
-    font-size: 120px;
-    text-align: center;
-    font-weight: 900;
-    /* color:transparent; */
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    opacity:0;
-    
 }
 
-.intro .name3{
-    width:100%;
-    font-size: 120px;
-    text-align: center;
-    font-weight: 900;
-    /* color:transparent; */
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    opacity:0;
-    
-}
-
-.intro .name4{
-    width:100%;
-    font-size: 120px;
-    text-align: center;
-    font-weight: 900;
-    /* color:transparent; */
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    opacity:0;
-    
-}
-
-.intro .name5{
-    width:100%;
-    font-size: 120px;
-    text-align: center;
-    font-weight: 900;
-    /* color:transparent; */
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    opacity:0;
-    
-}
-
-.intro .name6{
-    width:100%;
-    font-size: 120px;
-    text-align: center;
-    font-weight: 900;
-    /* color:transparent; */
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    opacity:0;
-    
-}
 
 .text{
     width: 300px;
