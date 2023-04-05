@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Universe!</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="js/main.js">
+  
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <script src="js/main.js"></script>
 
 </head>
 
@@ -25,54 +27,20 @@
         <p id="name6" class="names">Kim Minkyung</p>
         <img src="img/me.png" alt="" id="logo">
         <!-- <video muted autoplay loop id="imgme"> -->
-            <!-- <img src="img/me.png" aid="imgme"> -->
-            <!-- <strong>Your browser does not support the video tag.</strong>
+        <!-- <img src="img/me.png" aid="imgme"> -->
+        <!-- <strong>Your browser does not support the video tag.</strong>
           </video> -->
     </div>
 
-    <div class="text"> .myself{background-color:korean;}</div>
+    <div class="text">.myself{background-color:korean;}</div>
     <div class="text1"></div>
 
-    <script>
+    <div id="gradient"></div>
+    <div id="main">
+        여기서부터가 진짜다
+    </div>
 
-        $("#maintitle").click(function () {
-            // upper
-            $("#name1").animate({
-                height: '850px', opacity:1,
-            }, 'slow');
-            $("#name2").animate({
-                height: '650px', opacity:1,
-            }, 'slow');
-            $("#name3").animate({
-                height: '450px', opacity:1,
-            }, 'slow');
 
-            // down
-            $("#name4").animate({
-                top: '550px', opacity:1,
-            }, 'slow');
-            $("#name5").animate({
-                top: '650px', opacity:1,
-            }, 'slow');
-            $("#name6").animate({
-                top: '750px', opacity:1,
-            }, 'slow');
-
-            //img
-            $("#logo").animate({
-                bottom: '-15%',opacity:1,
-            }, 'slow');
-
-            $(".text").animate({
-                opacity:1,
-            }, 'slow');
-            $(".text1").animate({
-               opacity:1,
-            }, 'slow');
-
-        });
-
-    </script>
 
 </body>
 
