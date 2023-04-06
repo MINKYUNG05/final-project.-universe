@@ -40,6 +40,9 @@ $(document).ready(function () {
         opacity: 1,
     }, 'slow');
 
+   
+
+    //scroll event
 
     //logo click
     $("#logo").click(function () {
@@ -54,8 +57,8 @@ $(document).ready(function () {
 
         $("#maintitle").animate({
             fontSize: '100px',
-            top:'20%',
-            left:'40%',
+            top: '20%',
+            left: '40%',
         })
 
     });
