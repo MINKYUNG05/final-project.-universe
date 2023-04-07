@@ -40,9 +40,6 @@ $(document).ready(function () {
         opacity: 1,
     }, 'slow');
 
-   
-
-    //scroll event
 
     //logo click
     $("#logo").click(function () {
