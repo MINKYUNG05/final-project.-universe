@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(window).scroll(function () {
-        $('#aboutme').each(function () {
+        $('#main-wrap h2').each(function () {
             var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
@@ -55,24 +55,24 @@ $(document).ready(function () {
     });
 });
 
-    //logo click
-    $("#logo").click(function () {
-        $(this).animate({
-            width: '400px',
-            bottom: '45%', left: '70%',
-        }, 'slow');
+    // //logo click
+    // $("#logo").click(function () {
+    //     $(this).animate({
+    //         width: '400px',
+    //         bottom: '45%', left: '70%',
+    //     }, 'slow');
 
-        $(".names").fadeOut('slow');
-        $(".text").fadeOut('slow');
-        $(".text1").fadeOut('slow');
+    //     $(".names").fadeOut('slow');
+    //     $(".text").fadeOut('slow');
+    //     $(".text1").fadeOut('slow');
 
-        $("#maintitle").animate({
-            fontSize: '100px',
-            top: '20%',
-            left: '40%',
-        })
+    //     $("#maintitle").animate({
+    //         fontSize: '100px',
+    //         top: '20%',
+    //         left: '40%',
+    //     })
 
-    });
+    // });
 });
 
 
