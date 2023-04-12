@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     overflow-x: hidden;
@@ -137,6 +137,16 @@ body {
     width: 90%;
     height: 950px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+#main-content{
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -149,15 +159,7 @@ body {
     /* position:absolute; */
 }
 
-#main-wrap img{
-    width: 500px;
-    height: 400px;
-    position: relative;
-    top:-50%;
-    left:80%;
-    /* transform: translate(-50%, -50%); */
-    transform: rotate( 90deg )
-}
+
 #main-wrap h2{
     opacity: 0;
 }
@@ -167,12 +169,20 @@ body {
     margin: 20px 0;
 }
 
+#main-content2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 .tit{
     font-size: 17px;
-    /* font-weight: normal; */
+    font-weight: 700;
     line-height: 40px;
-    margin: -80px 0 30px 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color:rgb(67, 67, 67);
+    /* margin: -80px 0 30px 0; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 #content1{
@@ -209,4 +219,303 @@ body {
 #p1-content{
     font-size: 35px;
     line-height: 40px;
+}
+
+#pj{
+    width: 100%;
+    height: 1500px;
+}
+
+#pj-title{
+    width: 100%;
+    height: 200px;
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background-color:black ;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* p1 */
+
+#pj1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+#color1{
+    width: 42%;
+    height: 450px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    /* z-index: 1; */
+    /* position:absolute; */
+    
+}
+/* 
+@keyframes run {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 50%;
+    }
+  } */
+
+/* #color1:hover{
+    animation-name: run;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+} */
+
+#color1 p{
+    color:white;
+    font-size: 60px;
+    font-family: bolder;
+    margin: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#t1{
+    width: 59%;
+    height: 450px;
+    background-image: url("http://127.0.0.1:5501/img/shoes.PNG");
+    background-position: center 18%;
+    background-size: cover;
+    /* filter: grayscale(1); */
+    color:white;
+    font-size: 30px;
+    font-family: 900;
+    cursor:pointer;
+    /* filter: blur(5px); */
+    /* -webkit-filter: blur(5px); */
+    /* backdrop-filter: blur(5px) brightness(.9); */
+}
+
+#t1:hover{
+    filter: none;
+}
+
+/* p2 */
+
+#pj2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color2{
+    width: 45%;
+    height: 450px;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+#color2 p{
+    color:white;
+    font-size: 60px;
+    font-family: bolder;
+    margin: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#t2{
+    width: 55%;
+    height: 450px;
+    background-image: url("http://127.0.0.1:5501/img/books.PNG");
+    background-position: center 0%;
+    background-size: cover;
+    /* filter: grayscale(1); */
+    color:white;
+    font-size: 30px;
+    font-family: 900;
+    cursor:pointer;
+}
+
+#t2:hover{
+    filter: none;
+}
+
+/* p3 */
+
+#pj3{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color3{
+    width: 41%;
+    height: 450px;
+    background-color: rgb(183, 1, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+#color3 p{
+    color:white;
+    font-size: 60px;
+    font-family: bolder;
+    margin: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#t3{
+    width: 59%;
+    height: 450px;
+    background-image: url("http://127.0.0.1:5501/img/3.PNG");
+    background-position: center 80%;
+    background-size: cover;
+    /* filter: grayscale(1); */
+    color:white;
+    font-size: 30px;
+    font-family: 900;
+    cursor:pointer;
+}
+
+#t3:hover{
+    filter: none;
+}
+
+/* p4 */
+#pj4{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color4{
+    width: 42%;
+    height: 450px;
+    background-color: rgb(17, 61, 106);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+#color4 p{
+    color:white;
+    font-size: 60px;
+    font-family: bolder;
+    margin: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#t4{
+    width: 58%;
+    height: 450px;
+    background-image: url("http://127.0.0.1:5501/img/3213.PNG");
+    background-position: center 84%;
+    background-size: cover;
+    /* filter: grayscale(1); */
+    color:white;
+    font-size: 30px;
+    font-family: 900;
+    cursor:pointer;
+}
+
+#t4:hover{
+    filter: none;
+}
+
+/* p5 */
+#pj5{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+#color5{
+    width: 42%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    /* z-index: 1; */
+    /* position:absolute; */
+    
+}
+
+
+#color5 p{
+    /* color:white; */
+    font-size: 60px;
+    font-family: bolder;
+    margin: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#t5{
+    width: 59%;
+    height: 450px;
+    background-image: url("https://prototypum.com/wp-content/uploads/2019/05/prototypum-proces-koncept-design-web.jpg");
+    background-position: center 18%;
+    background-size: cover;
+    /* filter: grayscale(1); */
+    color:white;
+    font-size: 30px;
+    font-family: 900;
+    cursor:pointer;
+    /* filter: blur(5px); */
+    /* -webkit-filter: blur(5px); */
+    /* backdrop-filter: blur(5px) brightness(.9); */
+}
+
+#t5:hover{
+    filter: none;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+}
+
+#footer-content{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+#copyright{
+    font-size: 15px !important;
 }
